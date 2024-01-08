@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>FORMULÁRIOS</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="cadastro.php" method="POST">
+            Nome:<br>
+            <input type="text" name="nome" required autofocus maxlength="50"><br>
+            Senha:<br>
+            <input type="password" name="senha" disabled><br>
+            E-mail:<br>
+            <input type="email" name="email" required><br>
+            Time:<br>
+            <input type="radio" name="time" value="gremio" checked>Grêmio<br>
+            <input type="radio" name="time" value="internacional">Internacional<br>
+            <input type="radio" name="time" value="juventude">Juventude<br>
+            Cores:<br>
+            <input type="checkbox" name="cores" value="azul">Azul<br>
+            <input type="checkbox" name="cores" value="branco">Branco<br>
+            <input type="checkbox" name="cores" value="preto" checked>Preto<br>
+
+            <br>
+            <input type="submit" name="btn-enviar" value="Enviar">
+        </form>
+    </body>
+</html>
